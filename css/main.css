@@ -1,0 +1,128 @@
+
+/*************
+FULL PAGE
+*************/
+
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+/*************
+NAVIGATION
+*************/
+
+header .row {
+	display: flex;
+	align-items: center;
+}
+
+nav p {
+	display: inline;
+	font-size: 2rem;
+	text-align: center;
+	vertical-align: middle;
+}
+
+nav a {
+  text-decoration: none;
+  color: #ddd;
+}
+
+nav a:hover {
+  text-decoration: none;
+  color: #aaa
+}
+
+/*************
+JUMBOTRON
+*************/
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('https://i.vimeocdn.com/video/538087800.jpg?mw=1920&mh=1080&q=70');
+  background-size: cover;
+  background-position: center;
+  color: #ffffff;
+  height: 500px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+/*************
+INTRO
+*************/
+
+#intro-section {
+  border-top: 2rem;
+  border-bottom: 2rem;
+}
+
+/*************
+CONTACT
+*************/
+
+#contact-section {
+  background: #4f4f4f;
+  min-height: 50rem;
+  color: white;
+  border: 20px;
+  font-size: 1.5rem;
+}
+
+#contact-section p {
+  background-color: #6f6f6f;
+  border-style: solid;
+  border-width: 0.25rem;
+  border-color: white;
+  border-radius: 1rem;
+  word-wrap: break-word;
+  padding: 2px 2px;
+}
+
+/*************
+PRICING
+*************/
+
+#pricing-section {
+  border: 20px;
+}
+
+/*************
+ABOUT
+*************/
+
+#about-section {
+  width: 100%;
+  min-height: 600px;
+  background: #4f4f4f;
+  color: white;
+  padding: 20px;
+}
+
+/*************
+FOOTER
+*************/
+
+#footer p {
+  padding-top: 1rem;
+}
+
+#footer-social {
+  float: right;
+  padding-top: 1rem;
+}
+
+
+
+
+
+
+
+
+
+
+
